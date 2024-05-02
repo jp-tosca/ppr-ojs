@@ -13,7 +13,7 @@ build:
 
 python:
     install:
-        - requirements: doc/sphinx-guides/requirements.txt
+        - requirements: docs/Sphinx-guides/requirements.txt
 
 
 sphinx:
