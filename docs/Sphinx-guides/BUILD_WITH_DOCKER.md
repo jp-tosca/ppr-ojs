@@ -9,3 +9,4 @@ docker run -it --rm -v $(pwd):/docs sphinxdoc/sphinx:7.3.6 bash -c "cd docs/sphi
 You can also use the following to make clean the build:
 ```
 docker run -it --rm -v $(pwd):/docs sphinxdoc/sphinx:7.3.6 bash -c "cd docs/sphinx-guides && pip3 install -r requirements.txt && make clean"
+```
